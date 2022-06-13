@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        body{
+            background-color: rgb(248, 247, 247);
+        }
+   
+        .nav{
+            display: flex;
+            height: 80px;
+            background-color: white;
+            box-shadow: 1px 1px 2px 2px rgb(241, 241, 241);
+        }
+        .nav h2{
+          cursor: pointer;
+        }
+        .nav>div{
+            padding: 1%;
+        }
+        .logo{
+            width: 20%;
+            display: flex;
+        }
+        .text{
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .user{
+            width: 30%;
+            display: flex;
+        }
+        .user>h2{
+            margin-right: 20px;
+            background-color: #42a5f5;
+            padding: 2%;
+            border-radius:10px;
+            color: white;
+        }
+
+        .main{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: 50px auto;
+        }
+        .main > div:hover{
+            box-shadow: 2px 2px 5px 5px rgb(231, 231, 231);
+        }
+        .main > div{
+            width: 23%;
+            cursor: pointer;
+        }
+        .main > div>img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1>PTrend_Zone</h1>
+        </div>
+        <div class="text">
+            <h2> <a href="./products.html"> Women </a> </h2>
+            <h2> <a href="./products.html"> Men </a> </h2>
+            <h2> <a href="./products.html"> Kids </a> </h2>
+            <h2> <a href="./products.html"> Electronics </a> </h2>
+        </div>
+        <div class="user">
+            <h2> <a href="./signup.html"> Sign up </a></h2>
+            <h2> <a href="./signin.html"> Sign in </a></h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="img">
+          <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/bf8b0ef1-0520-41e1-9a0b-dee1017d37e9.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/ce5b4dff-6352-471f-adb4-981e7f6519cd.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/68872754-3a70-4afc-a6cf-09bf2749d3f5.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="https://images-static.nykaa.com/uploads/tr:w-190,e-sharpen,/870b9cd2-47e8-4797-a84a-57e38e42370f.jpg" alt="">
+        </div>
+    </div>
+</body>
+<script src="./navbar.js"></script>
+</html>
